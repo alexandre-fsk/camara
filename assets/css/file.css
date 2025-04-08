@@ -274,5 +274,209 @@ p{
         display: inline;
         float: inline-end;
     }
+
+
+
+    .navbar{
+        background-color: #222222;
+        height:90px;
+        display: flex;
+    }
+
+    
+    .navbar .link{
+        font-family:"Prompt", sans-serif ;
+        font-weight:lighter;
+        text-transform: capitalize;
+        text-decoration: none;
+        color:#f0f8ff;
+        /* padding:20px; */
+        margin:5px;
+        font-size:10px;
+        padding-left:5%;
+    }
+
+
+     .navbar .image-logo{
+        background-image:url('../../assets/images/brasao-matias.webp');
+        background-repeat: no-repeat;
+        background-size:15px;
+        background-position:left;
+
+
+        
+    }
     
 }   
+
+/* responsive grande */
+@media(width>=1240px){
+    body{
+        background-color:none;
+     }
+    
+    
+     .menu-principal{
+        display: flex;
+     }
+    
+    .menu-principal .link{
+        font-size:23px;
+        margin:6px;
+        padding-top:20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    }
+    
+    .navbar{
+        background-color: #222222;
+        height:90px;
+        display: flex;
+    }
+
+    
+    .navbar .link{
+        font-family:"Prompt", sans-serif ;
+        font-weight:lighter;
+        text-transform: capitalize;
+        text-decoration: none;
+        color:#f0f8ff;
+        /* padding:20px; */
+        margin:10px;
+        font-size:24px;
+        padding-left:2%;
+    }
+
+
+     .navbar .image-logo{
+        background-image:url('../../assets/images/brasao-matias.webp');
+        background-repeat: no-repeat;
+        background-size:50px;
+        background-position:left;
+    }
+    
+    .pesquisa input{
+        width:500px;
+        height:40px;
+        color:#222222;
+        outline:0;
+        font-size:20px;
+        padding-left:10px;
+        border-style:solid;
+        border-color:transparent;
+        box-shadow:2px 2px 2px 2px rgb(128, 128, 128,0.3);
+        background-color:transparent;    
+        font-family:"Quicksand", sans-serif ;
+    }
+    
+     .pesquisa button{
+        width:100px;
+        height:42px;
+        color:#f0f8ff;
+        font-size:20px;
+        border-style:none;
+        border-radius:5px;
+        background-color:#FEBA17;
+        box-shadow:2px 2px 2px 2px rgb(128, 128, 128,0.3);
+     }
+    
+    .services{
+        
+        background-color:transparent;
+        
+    }
+    
+    .all-services{
+        height:400px;
+        width:400px;
+        margin:20px;
+        display: inline-flex;
+        background-color:rgb(128, 128, 128,0.2);
+        background-image: url('./../images/info.webp');
+        box-shadow:2px 2px 2px 2px rgb(0, 0, 0,0.3);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:200px;
+    }
+    
+    .pesquisa{
+        margin-left:15%;
+    }
+    
+    
+    h1{
+        font-size:40px;
+        text-align: center;
+        color: #222222;
+        font-family:"Prompt", sans-serif;
+    }
+    
+    h2{
+        font-size:30px;
+        text-align: center;
+        color: #222222;
+        font-family:"Prompt", sans-serif;
+    
+    }
+    
+    
+    p{
+        font-family: "Prompt", sans-serif;
+        color: #222222;
+        text-indent:left;
+    }
+    
+    
+    .vitrine{
+        background-color:#222222;
+    }
+    
+    .service-area{
+        color: #f0f8ff;
+        font-size:30px;
+    }
+    
+    .logo{
+        display: inline-flex;
+    }
+
+    .log img{
+        width:300px;
+
+    }
+    
+    .menu{
+        display: inline-flex;
+        margin:0 auto;
+    }
+    
+    .social a{
+        display: inline;
+        float: inline-end;
+    }
+
+
+    .navbar{
+        background-color: #222222;
+        height:90px;
+        display: flex;
+    }
+
+    
+    .navbar .link{
+        font-family:"Prompt", sans-serif ;
+        font-weight:lighter;
+        text-transform: capitalize;
+        text-decoration: none;
+        color:#f0f8ff;
+        /* padding:20px; */
+        margin:10px;
+        font-size:24px;
+        padding-left:2%;
+    }
+
+
+     .navbar .image-logo{
+        margin-left:5%;
+        width:50px;
+    }
+}
